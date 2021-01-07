@@ -1,0 +1,2 @@
+history_readfuns.py 中包含几个函数，关于对history内容的读取
+thetest1.db中仅有history_table

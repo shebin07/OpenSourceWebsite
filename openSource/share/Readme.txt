@@ -1,0 +1,2 @@
+share_readfuns.py 中包含几个函数，关于对share内容的读取
+thetest1.db中 有history_table  people_table share_table

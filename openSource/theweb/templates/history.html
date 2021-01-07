@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<!-- 由登录界面转向此界面 查询history -->
+<html lang="en">
+<head>
+	<meta http-equiv="Expires" content="0">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-control" content="no-cache">
+	<meta http-equiv="Cache" content="no-cache">
+    	<meta charset="UTF-8">
+	<title>{{period}}</title>
+    <meta name="robots" content="index, follow" />
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    
+
+	<!-- CSS
+  ================================================== -->
+<link rel="stylesheet" href="../static/styles/skeleton.css" />
+    <link rel="stylesheet" href="../static/styles/style.css" />
+    <link rel="stylesheet" href="../static/styles/flexslider.css" />
+    <link rel="stylesheet" href="../static/styles/color.css" />
+	<link rel="stylesheet" href="../static/styles/layout.css" />
+    
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+    
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+
+
+	
+<body>
+<div id="bodychild">
+	<div id="outercontainer">
+    
+        <!-- HEADER -->
+        <div id="outerheader" >
+        	<div class="container" >
+            <header id="top">
+            	<div id="logo">
+						<a href="login.html">
+						<img src="../static/logo/logo1.jpg" width="150%" 
+							 style="max-width:120%;
+									max-height:120%;
+									width:auto;
+									height:auto;"/>
+						</a>
+				</div>
+			</header>
+		</div>
+		</div>
+        <!-- END HEADER -->
+        
+		<!-- BEFORE CONTENT -->       
+		<div id="outerbeforecontent">
+        	<div class="container">
+				<div class="container">
+				<style type="text/css">
+					.abcd{
+						font-size:15px;
+						line-height:2;
+						text-indent: 2em;
+					}
+				</style>
+					<h2>{{period}}</h2>
+					<div align="center">
+					<img src={{path}} align="center"  width="400px" >
+					</div>
+					<p class="abcd">
+    				时间：{{time}} <br><br>
+    				{% for i in contents %}
+    				{{i}}<br><br>
+    				{% endfor %}
+					</p>
+				</div>
+				
+            </div>
+        </div>
+		
+        <!-- END BEFORE CONTENT -->
+		
+		
+		<!-- FOOTER SIDEBAR -->
+       	 
+    	<footer id="footer">
+		<div class="container">
+		<!--CLEAR FLOATS-->
+		</div>
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 panel">
+						<div class="panel-body">
+							<style text>
+								.text{
+									text-align:center;
+								}
+							</style>
+							<br>
+							<p class="text">--开源科普网站设计组--</p>
+							<p class="text">联系我们 QQ601761035</p>
+						</div>
+					</div>
+
+				</div>
+				<!-- /row of panels -->
+			</div>
+		</div>
+	</footer>
+
+        <!-- END FOOTER SIDEBAR -->
+        
+       
+	</div><!-- end outercontainer -->
+</div><!-- end bodychild -->
+
+
+
+<!-- ////////////////////////////////// -->
+<!-- //      Javascript Files        // -->
+<!-- ////////////////////////////////// -->
+<script type="text/javascript" src="../static/js/jquery-1.6.4.min.js"></script>
+
+<!-- jQuery Superfish -->
+<script type="text/javascript" src="../static/js/hoverIntent.js"></script> 
+<script type="text/javascript" src="../static/js/superfish.js"></script> 
+<script type="text/javascript" src="../static/js/supersubs.js"></script>
+
+<!-- jQuery Twitter -->
+<script type="text/javascript" src="../static/js/jquery.tweetable.js"></script>
+
+<!-- Custom Script -->
+<script type="text/javascript" src="../static/js/custom.js"></script>
+
+</body>
+</html>
